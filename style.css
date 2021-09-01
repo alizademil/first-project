@@ -1,0 +1,183 @@
+html,
+body {
+  margin: 0;
+  /* height: 100%; */
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.801) 0%,
+      rgba(24, 24, 24, 0.8) 100%
+    ),
+    url(/images/img-1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-bottom: 4rem;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  padding-left: 15rem;
+  height: 120px;
+}
+
+.header .hero {
+  display: flex;
+  color: rgb(221, 221, 221);
+  align-self: center;
+  width: 80%;
+}
+
+.header .hero .left {
+  flex-grow: 2;
+  padding: 0 2rem 0;
+}
+
+.header .hero .left h3 {
+  line-height: 1;
+}
+
+.header .hero .left h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 30px 0;
+  max-width: 650px;
+}
+
+.header .hero .left p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  max-width: 650px;
+  line-height: 1.8;
+  margin-top: 0;
+}
+
+.header .hero .left span {
+  display: flex;
+  align-items: center;
+  margin: 17px 0;
+}
+
+.header .hero .left span a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem 3rem;
+  background-color: #05d561;
+  border-radius: 40px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.header .hero .left span span {
+  color: rgb(172, 172, 172);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 2;
+  margin-left: 1rem;
+}
+
+.header .hero .right {
+  flex-grow: 1;
+  padding: 0 2rem 0;
+}
+
+.header .hero .right .card {
+  background-color: #fff;
+  color: black;
+  height: 100%;
+  padding: 3rem;
+  border-radius: 0.9rem;
+  text-align: center;
+}
+
+.header .hero .right .card .round {
+  display: inline-block;
+  background-color: #f0f0f0;
+  margin: auto;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.header .hero .right .card h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 4rem;
+  color: #222;
+}
+
+.header .hero .right .card p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #888;
+  line-height: 2rem;
+}
+
+.header .hero .right .card form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.header .hero .right .card form input {
+  font-family: inherit;
+  padding: 0.6rem 2rem;
+  border: none;
+  color: inherit;
+  background-color: #ddd;
+  margin-bottom: 0.9rem;
+  font-size: 1rem;
+}
+
+.header .hero .right .card form input::placeholder {
+  color: rgb(77, 77, 77);
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+.header .hero .right .card form button[type="submit"] {
+  background-color: rgb(5, 213, 97);
+  border: 0;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+.abv {
+  color: black;
+}
+.abv hr {
+  width: 80%;
+}
+.abv h2 {
+  margin: auto;
+  margin-bottom: 4rem;
+  font-weight: 300;
+  max-width: 700px;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+.footer  ul  {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
